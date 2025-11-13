@@ -111,21 +111,6 @@ python -c "from src.api.routes import criar_app; app = criar_app(); app.run()"
 - `GET /api/relatorios/fornecedores` - Relatório por fornecedores
 - `POST /api/relatorios/exportar` - Exportar relatório
 
-## Características Técnicas
-
-✅ Modularização com separação de responsabilidades
-✅ Injeção de dependências
-✅ Repository Pattern para acesso a dados
-✅ Tratamento de exceções personalizado
-✅ Sistema de logging em níveis
-✅ Configuração externa (YAML/ENV)
-✅ Type hints em todas as funções
-✅ Docstrings completas
-✅ Validação de dados
-✅ Manipulação de arquivos (JSON/CSV)
-✅ API REST com Flask
-✅ Banco de dados SQLite
-
 ## Testes
 
 Os testes devem ser implementados conforme requisitos do projeto:
@@ -133,8 +118,3 @@ Os testes devem ser implementados conforme requisitos do projeto:
 - Testes de integração (10+ casos)
 - Testes funcionais (8+ cenários)
 - Testes estruturais (80%+ cobertura)
-- Testes de mutação (mutmut)
-
-## Licença
-
-Projeto acadêmico - FEI 2025
