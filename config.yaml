@@ -1,0 +1,22 @@
+database:
+  type: sqlite
+  name: estoque.db
+  host: localhost
+  port: 5432
+  user: ''
+  password: ''
+
+logging:
+  level: INFO
+  file: logs/estoque.log
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+api:
+  host: 0.0.0.0
+  port: 5000
+  debug: false
+
+business_rules:
+  min_estoque_critico: 10
+  max_desconto_percentual: 30.0
+  dias_validade_alerta: 30
